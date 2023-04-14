@@ -152,6 +152,7 @@ function ns_domain() {
     ns_domain_cloudflare
     gen_core_key
     input_nameserver
+    add_iptables_ssh
     start_dns_ssh
 }
 ns_domain
