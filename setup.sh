@@ -14,7 +14,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo -e "[ ${green}INFO${NC} ] Starting Check Ip Vps... " 
 sleep 2
-IZIN=$( curl https://raw.githubusercontent.com/Annnjayy/sc/main/name | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/sawandid/tester/main/name | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "[ ${green}INFO${NC} ] Permission Accepted..."
 else
