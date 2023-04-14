@@ -40,5 +40,5 @@ echo > /var/log/debug
 echo -e "===============================" | lolcat
 echo -e "      Succesfully
 echo -e "===============================" | lolcat
-echo -e "   Script By MakhlukVpn          "
+echo -e "   Script By Rr                "
 echo -e "===============================" | lolcat
