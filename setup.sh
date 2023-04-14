@@ -20,8 +20,6 @@ echo -e "[ ${green}INFO${NC} ] Permission Accepted..."
 else
 echo -e "[ ${green}INFO${red} ] Permission Denied!${NC}";
 echo -e "[ ${green}INFO${NC} ] Please Contact Admin!!"
-echo -e "[ ${green}INFO${NC} ] WhatsApp : 087844547312"
-echo -e "[ ${green}INFO${NC} ] Telegram : https://t.me/MakhlukVpn"
 exit 0
 fi
 clear
