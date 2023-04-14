@@ -23,15 +23,15 @@ sleep 1
 echo -e "[ ${green}INFO${NC} ] Starting Install Tools..... " 
 sleep 1
 # Link Hosting Kalian Untuk Tool
-ssh="raw.githubusercontent.com/Annnjayy/sc/main/ssh"
+ssh="raw.githubusercontent.com/sawandid/tester/main/ssh"
 # Link Hosting Kalian Untuk Xray
-xray="raw.githubusercontent.com/Annnjayy/sc/main/xray"
+xray="raw.githubusercontent.com/sawandid/tester/main/xray"
 # Link Hosting Kalian Untuk Service
-service="raw.githubusercontent.com/Annnjayy/sc/main/service"
+service="raw.githubusercontent.com/sawandid/tester/main/service"
 # Link Hosting Kalian Untuk Menu
-menu="raw.githubusercontent.com/Annnjayy/sc/main/menu"
+menu="raw.githubusercontent.com/sawandid/tester/main/menu"
 #Link Hosting Kalian Untuk Install
-instal="raw.githubusercontent.com/Annnjayy/sc/main/install"
+instal="raw.githubusercontent.com/sawandid/tester/main/install"
 #install
 cd /usr/bin
 wget --output-document=limit "https://${menu}/limitspeed.sh"
