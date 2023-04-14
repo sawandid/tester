@@ -34,6 +34,47 @@ menu="raw.githubusercontent.com/sawandid/tester/main/menu"
 instal="raw.githubusercontent.com/sawandid/tester/main/install"
 #install
 cd /usr/bin
+rm backup
+rm restore
+rm ipsaya
+rm menu-xray
+rm menu-tro
+rm menu-cloud
+rm menu-ssh
+rm menu-cf
+rm limit
+rm cek
+rm slhost
+rm menu
+rm usernew
+rm trial
+rm delete
+rm member
+rm restart
+rm about
+rm autokill
+rm tendang
+rm ceklim
+rm renew
+rm clearlog
+rm xp
+rm addvmess
+rm addvless
+rm addtrojan
+rm addtrgo
+rm delvmess
+rm delvless
+rm deltrojan
+rm deltrgo
+rm cekvmess
+rm cekvless
+rm cektrojan
+rm cektrgo
+rm renewvmess
+rm renewvless
+rm renewtrojan
+rm renewtrgo
+rm certv2ray
 wget --output-document=limit "https://${menu}/limitspeed.sh"
 wget --output-document=slhost "https://${service}/cf.sh"
 wget --output-document=about "https://${menu}/about.sh"
