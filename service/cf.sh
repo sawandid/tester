@@ -11,11 +11,11 @@ echo "=====================================" | lolcat
 sleep 1
 echo -e "[ ${green}INFO${NC} ] Starting Install Cert.... " 
 sleep 1
-DOMAIN=makhlukvpn.my.id
+DOMAIN=rapuh.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.makhlukvpn.my.id
-CF_ID=makhlukvpn@gmail.com
-CF_KEY=1e1fd5209818f9492309a6c60b94e1df4340f
+SUB_DOMAIN=${sub}.rapuh.my.id
+CF_ID=randyroth123@gmail.com
+CF_KEY=4518feeeb60aed7d6d0345f3da78880060c44
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
