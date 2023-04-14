@@ -55,6 +55,7 @@ apt install libreadline-dev -y
 apt install zlib1g-dev -y
 apt install libssl-dev -y
 apt install dos2unix -y
+apt install socat libpcre3 libpcre3-dev zlib1g-dev -y
 # info script install
 if [ -f "/etc/.s/log-install.txt" ]; then
 echo -e "===============================" | lolcat
