@@ -105,7 +105,7 @@ function add_dm() {
     wget --output-document=/root/.s/cf "${service}/cf.sh" >/dev/null 2>&1
     chmod +x /root/.s/cf
     bash /root/.s/cf
-    print_success "DomainAll"
+    echo "Success Add Domain"
     elif test $dom -eq 2; then
     read -rp "Enter Your Domain : " domen 
     echo $domen > /root/domain
@@ -133,7 +133,7 @@ function ins_ssl() {
     /root/.acme.sh/acme.sh --issue -d $domain --standalone -k ec-256
     ~/.acme.sh/acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key --ecc
     chmod 777 /etc/xray/xray.key
-    print_success "SSL Certificate"
+    echo "Success Install SSL Certificate"
 }
 add_dm
 ins_ssl
