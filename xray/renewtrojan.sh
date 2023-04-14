@@ -6,14 +6,12 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Loading..."
-IZIN=$( curl https://raw.githubusercontent.com/Annnjayy/sc/main/name | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/sawandid/tester/main/name | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "[ ${green}INFO${NC} ] Permission Accepted..."
 else
 echo -e "[ ${green}INFO${red} ] Permission Denied!${NC}";
 echo -e "[ ${green}INFO${NC} ] Please Contact Admin!!"
-echo -e "[ ${green}INFO${NC} ] WhatsApp : 087844547312"
-echo -e "[ ${green}INFO${NC} ] Telegram : https://t.me/MakhlukVpn"
 exit 0
 fi
 clear
