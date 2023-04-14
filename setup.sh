@@ -109,7 +109,7 @@ function add_dm() {
     elif test $dom -eq 2; then
     read -rp "Enter Your Domain : " domen 
     echo $domen > /root/domain
-    mv /root/domain /etc/xray/domain
+    cp /root/domain /etc/xray/domain
     else 
     echo "Not Found Argument"
     exit 1
