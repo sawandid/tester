@@ -18,7 +18,7 @@ exit 0
 fi
 clear
 #info
-REPO="https://raw.githubusercontent.com/Annnjayy/sc/main/service/"
+REPO="https://raw.githubusercontent.com/sawandid/tester/main/service/"
 echo "=====================================" | lolcat
 echo " Installing Cert Cloudflare NSDomain        "
 echo "=====================================" | lolcat
@@ -27,11 +27,11 @@ echo -e "[ ${green}INFO${NC} ] Starting Install NS Cert.... "
 sleep 1
 ns_domain_cloudflare() {
 	domain=$(cat /etc/xray/domain)
-	DOMAIN="makhlukvpn.my.id"
+	DOMAIN="rapuh.my.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	NS_DOMAIN=ns-${domain}
-	CF_ID=makhlukvpn@gmail.com
-        CF_KEY=1e1fd5209818f9492309a6c60b94e1df4340f
+	CF_ID=randyroth123@gmail.com
+        CF_KEY=4518feeeb60aed7d6d0345f3da78880060c44
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
