@@ -54,7 +54,6 @@ apt install libz-dev -y
 apt install libreadline-dev -y
 apt install zlib1g-dev -y
 apt install libssl-dev -y
-apt install libssl1.0-dev -y
 apt install dos2unix -y
 # info script install
 if [ -f "/etc/.s/log-install.txt" ]; then
