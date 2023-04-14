@@ -8,7 +8,7 @@ yellow='\033[0;33m'
 Suffix="\033[0m"
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Loading....."
-IZIN=$( curl https://raw.githubusercontent.com/Annnjayy/sc/main/name | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/sawandid/tester/main/name | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "[ ${green}INFO${NC} ] Permission Accepted..."
 else
